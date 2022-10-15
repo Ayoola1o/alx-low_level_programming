@@ -8,20 +8,29 @@
  */
 int main(void)
 {
-	int d;
+	int i,k='0',j;
 
-	for (d = 0; d < 90; d++)
+	for (i = 0; i <='9'; i++)
 	{
-		for ()
+		for (j=k; j<='9'; j++)
 		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
+			putchar(i);
+			putchar(j);
 		}
-		if (d != 89)
+		if (i == j)
 		{
-			putchar(',');
-			putchar(' ');
+			continue;
 		}
+		if (i =='8' && j =='9' )
+		{
+			break;
+		}
+		else
+		{
+			putchar('');
+			putchar('');
+		}
+		k++;
 	}
 	putchar('\n');
 	return (0);
