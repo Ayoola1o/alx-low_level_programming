@@ -1,0 +1,1 @@
+i c 0x0f - c FUNCTIONS POINTERS
